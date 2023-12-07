@@ -1,0 +1,30 @@
+@import url("https:fonts.googleapis.com/css2?family=Inconsolata:400,700");
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.outerDiv{
+    width: 100vw;
+    height: 100vh;
+    background-color: #060607;
+    display: grid;
+    place-items: center;
+}
+
+.innerDiv{
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    place-items: center;
+}
+
+.main-heading{
+    padding:30px;
+    color: white;
+    text-shadow: 0 1px 8px rgba(255,255,255,0.5);
+    font-size: 100px;
+}
+
+
